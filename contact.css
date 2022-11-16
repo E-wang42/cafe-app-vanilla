@@ -1,0 +1,90 @@
+main section {
+    width: 1120px;
+    height: 1100px;
+}
+
+main section img{
+    width: 40rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+section h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #30D5C8;
+    margin-top: 50px;
+}
+
+form {
+    background-color: #CCC2B8;
+    width: 40rem;
+    height: 28rem;
+    margin: auto;
+    border-radius: .8rem;
+    box-shadow: 5px 5px 5px black;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input {
+    display: block;
+}
+
+input:focus {
+    background-color: #DADADA;
+}
+
+label {
+    font-weight: 600;
+}
+
+#name {
+    width: 39rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 39rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#phone {
+    width: 39rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+select{
+    width: 40rem;
+    height: 3rem;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    display: block;
+    border-radius: 5px;
+    font: inherit;
+    margin-bottom: 10px;
+}
+
+label span {
+    color: red;
+    font-weight: 600;
+}

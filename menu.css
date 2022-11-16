@@ -1,0 +1,50 @@
+main li {
+  list-style: none;
+  display: flex;
+  padding: 15px 0px 15px 0px;
+}
+
+main ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 4px;
+  padding: 2rem 0 2rem 2rem;
+}
+
+.drinks {
+  width: 180px;
+  height: 240px;
+  border-radius: 8px 0 0 8px;
+}
+
+.drinkDesc {
+  width: 300px;
+  height: 240px;
+  background-color: #a36629;
+  border-radius: 0 8px 8px 0;
+  padding: 0 10px 0 15px;
+}
+
+.drinkDesc h3 {
+  color: #fdfd90;
+}
+
+.drinkDesc p {
+  font-size: 0.85rem;
+  padding-bottom: 45px;
+}
+
+.drinkDesc a {
+  color: black;
+  border: 2px solid #fdfd90;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.drinkDesc a:hover {
+  background-color: #fdfd90;
+  transition: 0.5s;
+}

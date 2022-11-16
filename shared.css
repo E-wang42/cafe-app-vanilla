@@ -1,0 +1,186 @@
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: #CCC2B8;
+    margin: 0;
+}
+
+main {
+    width: 1120px;
+    margin: auto;
+    background-color: #3C2E25;
+    margin-top: 1.2rem;
+}
+
+/*----------------------------------------------------header--------------------------------------*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    width: 1080px;
+    height: 75px;
+    margin: auto;
+    background-color: #665f58;
+    box-shadow: 0px 12px 15px #2e2e2e;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.name {
+    font-family: 'Nanum Pen Script', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 50px;
+    padding: 5px 0px 5px 20px;
+    color: #30D5C8;
+    text-shadow: 3px 3px 5px black;
+}
+
+.navLinks {
+    text-decoration: none;
+    padding: 12px;
+    color: #f9f6f2;
+    border-radius: 8px;
+    font-size: 1.3rem;
+}
+
+.navLinks:hover {
+    background-color: #30D5C8;
+    transition: .8s;
+    color: black;
+}
+
+.navLogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 60px;
+}
+
+/*---------------------------------------------------Footer-----------------------------------------------------*/
+
+footer {
+    background-color: #665f58;
+    width: 1120px;
+    margin: auto;
+    box-shadow: 0px -12px 15px #2e2e2e;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #f9f6f2;
+}
+
+#shop {
+    font-size: .8rem;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+    color: #30D5C8;
+}
+
+#company {
+    font-size: .8rem;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+    color: #30D5C8;
+}
+
+.footerLinks {
+    display: flex;
+    padding: 0px 50px 0px 50px;
+}
+
+.footerLinks1 {
+    list-style: none;
+    margin-right: 5rem;
+}
+
+.footerLinks2 {
+    list-style: none;
+}
+
+.footerLinksText {
+    padding-bottom: 1rem;
+    font-size: .9rem;
+}
+
+.footerLinksText a:hover {
+    color: black;
+    transition: .6s;
+}
+
+.footerSM {
+    margin-right: 80px;
+}
+
+#connected {
+    font-size: .8rem;
+    text-decoration: underline;
+    margin: -30px 0px 0px 122px;
+    color: #30D5C8;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSM1 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footerSM2 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footerLogo1 {
+    padding: 0px 30px;
+}
+
+.footerLogo1:hover {
+    transform: translateY(-6px);
+    transition: .8s;
+}
+
+.footerLogo2 {
+    padding: 0px 30px;
+}
+
+.footerLogo2:hover {
+    transform: translateY(-6px);
+    transition: .8s;
+}
+
+.footerEnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    background-color: #dde0e1;
+    font-size: .8rem;
+}
+
+.footerEndLink {
+    text-decoration: none;
+    color: black;
+}
+
+/*footer span*/
+p span {
+    padding-right: 20px;
+}
